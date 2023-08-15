@@ -1,0 +1,35 @@
+/* .navlist {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  align-items: center;
+  background-color: var(--clr-primary);
+}
+
+.navList,
+.leftPanel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  color: var(--clr-white);
+}
+
+.input,
+.input:focus {
+  height: 50px;
+  width: 250px;
+  outline: none;
+  border: none;
+  background: var(--clr-secondary);
+  border-radius: 16px;
+  color: var(--clr-text-2);
+}
+.input::placeholder {
+  color: var(--clr-text-2);
+}

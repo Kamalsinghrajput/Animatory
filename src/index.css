@@ -1,0 +1,11 @@
+:root {
+  --clr-primary: #000;
+  --clr-secondary: #1e1d22;
+  --clr-text-2: #424242;
+  --clr-white: #fff;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  color: var(--clr-white);
+}

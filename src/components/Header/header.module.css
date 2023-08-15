@@ -1,0 +1,28 @@
+.header {
+  background-image: url("../../assets/home-page-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.headerBg {
+  background-color: var(--clr-primary);
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  max-height: 300px;
+}
+
+.titleStudio {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
