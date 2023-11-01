@@ -1,15 +1,17 @@
 .header {
   background-image: url("../../assets/home-page-bg.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  height: 500px;
+
+ 
+ 
+  
 }
 .headerBg {
   background-color: var(--clr-primary);
+  flex: 1;
 }
 
 h1 {
@@ -26,3 +28,64 @@ h1 {
   justify-content: left;
   margin: 0;
 }
+
+.favourites{
+  display: flex;
+  justify-content: space-around;
+}
+
+.animeBar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.animeOptions{
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.input,
+.input:focus {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 250px;
+  outline: none;
+  border: none;
+  background: var(--clr-secondary);
+  border-radius: 16px;
+  color: var(--clr-text-2);
+}
+
+.input::placeholder {
+  color: var(--clr-text-2);
+}
+
+
+.animeImages{
+  border-radius: 10px;
+  height: 200px;
+  width: 160px;
+  opacity: 0.75;
+}
+
+.animeCardWrapper{
+  display: grid;
+  gap: 1rem;
+grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+
+}
+
+.animeCard{
+  position: relative;
+  height: 200px;
+  width: 160px;
+}
+
+.animeTitle{
+  position: absolute;
+  bottom: 20px;
+  
+}
+

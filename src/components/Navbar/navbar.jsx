@@ -4,6 +4,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.leftPanel}>
         <div>Animatory (logo)</div>
+        
         <ul className={styles.navList}>
           {["Genre", "Comic List", "Popular", "Contact us"].map(
             (item, index) => {
@@ -12,9 +13,7 @@ function Navbar() {
           )}
         </ul>
       </div>
-      <div className="search-bar">
-        <input className={styles.input} placeholder="Search..." />
-      </div>
+      
     </nav>
   );
 }
