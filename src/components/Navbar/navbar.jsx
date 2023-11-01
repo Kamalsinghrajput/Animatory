@@ -3,8 +3,8 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.leftPanel}>
-        <div>Animatory (logo)</div>
-        
+        <div className={styles.logo}>Animatory (logo)</div>
+
         <ul className={styles.navList}>
           {["Genre", "Comic List", "Popular", "Contact us"].map(
             (item, index) => {
@@ -13,7 +13,6 @@ function Navbar() {
           )}
         </ul>
       </div>
-      
     </nav>
   );
 }
