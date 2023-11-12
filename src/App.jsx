@@ -1,17 +1,18 @@
-
+import { Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
+import Home from "./pages/home/home";
+import Navbar from "./components/Navbar/navbar";
 import Chatbox from "./components/Chatbox/chatbox";
-import Header from "./components/Header/header";
-import Navbar from "./components/navbar/navbar";
-// import Chatbox from "./components/ChatBox/chatbox";
-
+import AnimeDetails from "./pages/AnimeDetails/AnimeDetails";
 function App() {
-  console.log(styles)
   return (
     <div className={styles.screen}>
       <Navbar />
-      <Header />
-      <Chatbox/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/anime/:id" element={<AnimeDetails />} />
+      </Routes>
+      <Chatbox />
     </div>
   );
 }

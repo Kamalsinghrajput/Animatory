@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  flex: 1;
+  background-color: var(--clr-primary);
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.animeTitle {
+  font-size: 3rem;
+}
+
+.animeDiscription {
+  font-size: 1.2rem;
+}
+
+.animeImage {
+  border-radius: 10px;
+}
+
+.animeDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 60vh;
+}
+
+.trailer {
+  height: 400px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.trailerWrapper {
+  display: flex;
+  justify-content: center;
+}

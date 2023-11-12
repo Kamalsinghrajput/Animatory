@@ -1,12 +1,10 @@
 .navbar {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: start; */
   flex-basis: 16%;
-  /* align-items: start; */
   background-color: var(--clr-primary);
-  /* position: sticky; */
-  /* height: 100vh; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
 
 .navList,
@@ -17,5 +15,5 @@
   gap: 2rem;
   list-style: none;
   color: var(--clr-white);
-  position: fixed;
+  padding: 0;
 }

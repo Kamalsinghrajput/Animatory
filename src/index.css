@@ -1,5 +1,5 @@
 :root {
-  --clr-primary: #0B0F18;
+  --clr-primary: #0b0f18;
   --clr-secondary: #111521;
   --clr-text-2: #424242;
   --clr-white: #fff;
@@ -8,4 +8,5 @@ body {
   overflow-x: hidden;
   margin: 0;
   color: var(--clr-white);
+  background-color: var(--clr-secondary);
 }

@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import images from "../../constants/images";
 import styles from "./header.module.css";
+import { Link } from "react-router-dom";
 
-const URL = `https://api.jikan.moe/v4/top/anime?page=100`;
+const URL = `https://api.jikan.moe/v4/top/anime`;
 
 function Header() {
   const [animeData, setAnimeData] = useState();
@@ -49,14 +50,14 @@ function Header() {
       </ul>
       <div className={styles.animeCardWrapper}>
         {animeData?.data.map((i) => (
-          <div className={styles.animeCard}>
+          <Link to={`/anime/${i.mal_id}`} className={styles.animeCard}>
             <img
               className={styles.animeImages}
               src={i.images.jpg.image_url}
               alt=""
             />
             <div className={styles.animeTitle}>{i.title}</div>
-          </div>
+          </Link>
         ))}
       </div>
     </header>
