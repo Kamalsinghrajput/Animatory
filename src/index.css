@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@400;800&family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --clr-primary: #000000;
+  --clr-secondary: #f8f8f8;
+  --clr-text-2: #000000;
+  --clr-white: #fff;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}

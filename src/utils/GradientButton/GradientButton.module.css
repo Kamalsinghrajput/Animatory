@@ -1,0 +1,40 @@
+/* .gradientButton {
+  width: 182px;
+  height: 61px;
+  background: linear-gradient(red, white, blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 36px;
+} */
+
+/* .buttonInner {
+  padding: 15px 20px;
+  border-radius: 36px;
+  box-sizing: border-box;
+  height: 90%;
+  width: 96%;
+  background: black;
+} */
+
+.gradientButton {
+  position: relative;
+  max-width: 110px;
+}
+.button {
+  height: 50px;
+  width: 110px;
+  max-width: 200px;
+  position: relative;
+}
+.watchnow {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  max-width: 110px;
+  font-size: small;
+  right: 15px;
+  gap: 5px;
+  align-items: center;
+  color: white;
+}
