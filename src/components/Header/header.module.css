@@ -79,7 +79,7 @@
 }
 
 .content {
-  max-width: 530px;
+
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -225,4 +225,21 @@
 
 .miniNavBar {
   padding-left: 1rem;
+}
+
+
+.titleStats{
+  display: flex;
+
+}
+
+.animeStats{
+display: flex;
+padding-left: 32px;
+flex-direction: column;
+justify-content: space-evenly;
+ 
+}
+.animeDesc{
+  max-width: 530px;
 }

@@ -1,35 +1,29 @@
 .wrapper {
+  max-width: 1400px;
   flex: 1;
-
-  background-repeat: no-repeat;
   align-items: center;
-}
-
-.page {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex: 1;
-  /* background: rgba(0, 0, 0, 0.7); */
-  background: rgb(127, 122, 149);
+  background: rgb(10, 10, 10);
   background: linear-gradient(
     90deg,
-    rgba(127, 122, 149, 1) 0%,
-    rgba(62, 62, 117, 1) 50%,
-    rgba(52, 60, 100, 1) 100%
+    rgba(10, 10, 10, 1) 0%,
+    rgba(51, 40, 40, 1) 50%,
+    rgba(23, 3, 3, 1) 100%
   );
+  justify-content: center;
+  max-height: max-content;
+  border-radius: 30px;
 }
 
-.animeTitle {
-  font-size: 100px;
-}
+.background {
+  display: flex;
+  justify-content: center;
+  background-color: black;
 
-.animeDiscription {
-  font-size: 2rem;
+  
 }
 
 .animeImage {
-  border-radius: 10px;
+ 
   margin-left: 80px;
   padding-top: 5px;
 }
@@ -40,26 +34,11 @@
 }
 
 .titleSection {
-  padding: 0;
-  max-width: 700px;
+
+  max-width: 500px;
 }
 
 .animestats {
   padding: 61px 50px 0px 5px;
   line-height: 30px;
-}
-
-.verticalLine {
-  content: "";
-  width: 1px;
-  height: 100vh;
-  background-color: white;
-}
-
-.horizontalLine {
-  content: " ";
-  height: 1px;
-  width: 100%;
-
-  background-color: white;
 }
