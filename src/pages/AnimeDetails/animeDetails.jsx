@@ -36,6 +36,7 @@ function AnimeDetails() {
           image={animeData?.images?.jpg?.image_url}
           animeData={animeData}
           desc={synopsis}
+          href={animeData?.trailer?.url}
         />
      
         
